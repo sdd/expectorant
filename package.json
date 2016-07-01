@@ -2,14 +2,18 @@
   "name": "expectorant",
   "version": "0.0.1",
   "description": "Chai plugin that triggers a REPL when an assertion fails that allows you to interrogate and manipulate variables, in the scope of the failing test.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sc0ttyd/expectorant.git"
+  },
   "scripts": {
     "test": "mocha *.test.js"
   },
   "keywords": [
+    "expectorant",
     "chai",
-    "chai",
-    "plugin",
+    "chai-plugin",
     "repl"
   ],
   "author": "Scott Donnelly",
